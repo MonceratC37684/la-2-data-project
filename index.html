@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Whats Happening In Los Angeles</title>
+        
+
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css">
+   <link rel="stylesheet" href="style.css">
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/js/materialize.min.js"></script>
+           
+    </head>
+     <body>
+        <h1>Whats Happening In Los Angeles</h1>
+        <h2>  Here you will learn about all the different things in Los Angeles such as; the dates, location, and time. there 
+        will be a brief description about the events happening on what every day it is. 
+        The information for this website is obtained from the <a href="https://data.lacity.org/browse">LA Open Data Project</a>.
+        If you need to contact us, the information is under the event title.</h2>
+        <button onclick={getData()}>Get Data</button>
+                    <p style="text-align: center" id="numresults"></p>
+        <div class="row">
+        <div id="result"></div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html> 
